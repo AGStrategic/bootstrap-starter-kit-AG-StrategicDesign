@@ -18,10 +18,26 @@
 # use this to edit global tag styles like h1, h2, p
 --------------------------------------------------------------*/
 
-h1 {font-size: 2em;}
-h2 {font-size: 1.3em;}
-h3 {font-size: 1.2em;}
-p {font-size: 1em;}
+h1 {
+    font-family: 'Lato', sans; 
+    font-size: 3em;
+}
+
+h2 {
+
+    font-family: 'Lato', sans; 
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Lato', sans; 
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Lato', sans; 
+    font-size: 1em;
+}
 
 
 
@@ -105,6 +121,17 @@ background: #7BA701;
 color: #000;
 
 }
+
+
+/*--------------------------------------------------------------
+# Link text colors
+--------------------------------------------------------------*/
+
+  a.orange-link {
+             color: #F17650;
+             text-transform: uppercase;
+             
+         }
 
 /*--------------------------------------------------------------
 # Box Borders
@@ -510,36 +537,8 @@ margin-top: 200px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
- 
-}
 
-/*
- * Styles copied from the Grid example to make grid rows & columns visible.
- */
-/*.container {
-  padding-right: 15px;
-  padding-left: 15px;
 }
-
-h4 {
-  margin-top: 25px;
-}
-.row {
-  margin-bottom: 20px;
-}
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-[class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
-}*/
-
 
 
 
