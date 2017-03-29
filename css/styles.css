@@ -11,6 +11,12 @@
 # styles you can use to customize bootstrap layouts.
 --------------------------------------------------------------*/
 
+/*--------------------------------------------------------------
+# Sandbox Area
+# put all test css in here
+--------------------------------------------------------------*/
+
+
 
 
 /*--------------------------------------------------------------
@@ -528,11 +534,11 @@ margin-top: 200px;
 
 
 /*--------------------------------------------------------------
-# Row with equal height columns
+# Image with call out next to it
 --------------------------------------------------------------*/
 
 
-.row-eq-height {
+.img-row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
