@@ -15,7 +15,37 @@
 # Sandbox Area
 # put all test css in here
 --------------------------------------------------------------*/
-
+ .row {
+            margin-top: 30px;
+        }
+        
+        .thumbnail {
+            border: none;
+        }
+        
+        .row-eq-height {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        .bot {
+            position: absolute;
+            bottom: 15px;
+        }
+        
+        .margin-bottom {
+            margin-bottom: 37px;
+        }
+        /* Small Devices, Tablets */
+        
+        @media only screen and (min-width: 768px) {
+            .row-eq-height {
+                flex-direction: row;
+            }
+        }
 
 
 
